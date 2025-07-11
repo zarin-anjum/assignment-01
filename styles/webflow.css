@@ -91,6 +91,7 @@ nav ul li{
   font-style: normal;
   font-size: 42px;
   color: #252432;
+  margin-bottom: 0;
 }
 
 .action-content-subtitle{
@@ -100,6 +101,7 @@ nav ul li{
   font-style: normal;
   font-size: 24px;
   color: rgba(37, 36, 50, 0.5);
+  margin-top: 20px;
 }
 
 .action-image{
@@ -153,4 +155,5 @@ nav ul li{
   font-style: normal;
   color: rgba(0, 0, 0, 0.5);
   margin-top: 0;
+  text-align: center;
 }
