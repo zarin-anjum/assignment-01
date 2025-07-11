@@ -39,3 +39,22 @@ nav-title{
 nav ul li{
     list-style: none;
 }
+
+/* Banner Styles */
+.banner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 65px;
+  font-weight: bold;
+  color: #252432;
+  text-align: center;
+  margin: 200px 250px;
+  margin-bottom: 37px;
+}
