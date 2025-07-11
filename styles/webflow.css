@@ -105,3 +105,52 @@ nav ul li{
 .action-image{
   border-radius: 48px;
 }
+
+/* Productive Users */
+.productive-users{
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  padding: 50px 142px;
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-bottom: 130px;
+  justify-content: center;
+}
+
+.productive-users-title{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 38px;
+  columns: #252432;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.productive-users-items{
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.item-title{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 80px;
+  font-style: normal;
+  color: #4E47FF;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.item-subtitle{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+}
