@@ -25,6 +25,12 @@
     border-radius: 10px;
 }
 
+.header{
+  background-image: url(../Assets/Hero-bg.png);
+  height: 698px;
+  width: 1440px;
+}
+
 nav{
   display: flex;
   align-items: center;
@@ -32,7 +38,8 @@ nav{
   margin: 50px 150px;
 }
 
-nav-title{
+
+.nav-title{
   font-size: 34px;
 }
 
