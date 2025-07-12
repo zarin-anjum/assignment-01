@@ -286,13 +286,12 @@ nav ul li{
 /* Let's get in touch */
 .query{
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-left: 170px;
   margin-right: 170px;
-  margin-bottom: 130px;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  margin-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .query-title{
@@ -310,7 +309,6 @@ nav ul li{
 .query-form{
   display: flex;
   flex-direction: column;
-  row-gap: 19px;
 }
 
 .query-info{
@@ -324,10 +322,57 @@ nav ul li{
   row-gap: 20px;
 }
 
-.query-form input[type="text"], .query-form input[type="email"]{
+.query-form input[type="text"], .query-form input[type="email"], .query-form textarea{
   display: block;
-  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.5);
+  width: 90%;
   padding: 20px;
   text-align: left;
   border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.query-form input[type="submit"]{
+  width: 100%;
+}
+
+.footer{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.footer-box{
+  width: 531px;
+  height: 221px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-title{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 100px;
+  color: #4E47FF;
+  margin-bottom: 10px;
+}
+
+.footer-subtitle{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #8987A1;
+  text-align: center;
 }
