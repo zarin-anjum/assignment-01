@@ -240,3 +240,47 @@ nav ul li{
   color: #b3b3b3;
   margin-top: 0;
 }
+
+/* Ready to focus better */
+.focus-better{
+  background-color: #ffffff;
+  text-align: center;
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-bottom: 130px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.focus-text{
+  row-gap: 20px;
+}
+
+.focus-title{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 50px;
+  columns: #000;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.focus-subtitle{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  row-gap: 20px;
+}
+
+.focus-image{
+  border-radius: 48px;
+  margin-top: 20px;
+}
+
+/* Let's get in touch */
