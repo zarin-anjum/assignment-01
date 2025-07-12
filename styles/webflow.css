@@ -323,3 +323,11 @@ nav ul li{
   color: #000;
   row-gap: 20px;
 }
+
+.query-form input[type="text"], .query-form input[type="email"]{
+  display: block;
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+  border-radius: 10px;
+}
