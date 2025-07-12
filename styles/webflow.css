@@ -376,3 +376,7 @@ nav ul li{
   color: #8987A1;
   text-align: center;
 }
+
+.footer-box ul li{
+  list-style: none;
+}
