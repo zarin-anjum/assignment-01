@@ -284,3 +284,42 @@ nav ul li{
 }
 
 /* Let's get in touch */
+.query{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-bottom: 130px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.query-title{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 97px;
+  columns: #000;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.query-form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 19px;
+}
+
+.query-info{
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  color: #000;
+  row-gap: 20px;
+}
