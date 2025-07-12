@@ -25,6 +25,11 @@
     border-radius: 10px;
 }
 
+.btn-primary:hover {
+  background-color: #3A34CC;
+  box-shadow: 0 4px 15px rgba(78, 71, 255, 0.4);
+}
+
 body{
   background-color: #f5f8ff;
 }
@@ -342,16 +347,18 @@ nav ul li{
   width: 100%;
 }
 
+/* Footer Styles */
 .footer{
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  align-items: center
+  align-items: center;
+  width: 100%;
+  padding: 25px 0;
 }
 
 .footer-box{
   width: 531px;
-  height: 221px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -377,6 +384,22 @@ nav ul li{
   text-align: center;
 }
 
+.footer-box ul{
+  display: flex;
+  align-items: center;
+}
+
 .footer-box ul li{
   list-style: none;
+  margin-right: 40px;
+}
+
+.footer-box li a{
+  text-decoration: none;
+  color: #8987A1;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
 }
